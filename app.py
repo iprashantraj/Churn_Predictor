@@ -3,7 +3,13 @@ import pandas as pd
 import pickle
 import os
 import plotly.graph_objects as go
-
+st.markdown("""
+    <style>
+        .block-container {
+            padding-top: 0rem;
+        }
+    </style>
+""", unsafe_allow_html=True)
 # Set page config
 st.set_page_config(page_title="Customer Churn Prediction", layout="wide", page_icon="🏦")
 
